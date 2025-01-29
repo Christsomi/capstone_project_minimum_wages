@@ -27,7 +27,7 @@ class VariablesDescription {
             card.addEventListener('click', () => {
                 const variableId = card.dataset.variable;
                 if (variableId) {
-                    window.location.href = `/variables/${variableId}.html`;
+                    window.location.href = `variables/${variableId}.html`;
                 }
             });
 
