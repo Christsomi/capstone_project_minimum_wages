@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+hawaii vs north_dakota
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0067
+   - Statistical significance (p-value): 0.5724
+   - Year-to-year volatility: 0.042
+   - Maximum deviation: 0.214
+   - Pre-treatment observations: 10
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

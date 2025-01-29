@@ -1,0 +1,15 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+south_dakota vs indiana
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0062
+   - Statistical significance (p-value): 0.1523
+   - Assessment: ✓ Parallel trends assumption appears to hold
+
+Recommendation:
+✓ Suitable for DiD analysis
+

@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+wyoming vs oklahoma
+==============================================
+
+Treatment Year: 2019
+
+Analysis Results:
+   - Trend difference: 0.0061
+   - Statistical significance (p-value): 0.0165
+   - Year-to-year volatility: 0.024
+   - Maximum deviation: 0.115
+   - Pre-treatment observations: 18
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

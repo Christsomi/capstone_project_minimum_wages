@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+arkansas vs texas
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0154
+   - Statistical significance (p-value): 0.0193
+   - Year-to-year volatility: 0.0217
+   - Maximum deviation: 0.059
+   - Pre-treatment observations: 10
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

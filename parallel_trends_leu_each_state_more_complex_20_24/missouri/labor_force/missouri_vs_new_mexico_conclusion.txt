@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+missouri vs new_mexico
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.014
+   - Statistical significance (p-value): 0.1062
+   - Year-to-year volatility: 0.0156
+   - Maximum deviation: 0.068
+   - Pre-treatment observations: 6
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

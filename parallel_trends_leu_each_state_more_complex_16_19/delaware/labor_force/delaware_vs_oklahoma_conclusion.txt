@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+delaware vs oklahoma
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0204
+   - Statistical significance (p-value): 0.0225
+   - Year-to-year volatility: 0.0275
+   - Maximum deviation: 0.104
+   - Pre-treatment observations: 8
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

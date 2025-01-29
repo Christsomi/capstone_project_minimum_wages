@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+minnesota vs mississippi
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.005
+   - Statistical significance (p-value): 0.8556
+   - Year-to-year volatility: 0.0191
+   - Maximum deviation: 0.236
+   - Pre-treatment observations: 6
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

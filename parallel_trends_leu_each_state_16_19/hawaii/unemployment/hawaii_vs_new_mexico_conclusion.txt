@@ -1,0 +1,15 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+hawaii vs new_mexico
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0165
+   - Statistical significance (p-value): 0.4977
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

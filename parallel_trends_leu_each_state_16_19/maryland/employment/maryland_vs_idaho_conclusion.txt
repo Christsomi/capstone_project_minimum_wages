@@ -1,0 +1,15 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+maryland vs idaho
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0122
+   - Statistical significance (p-value): 0.1921
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

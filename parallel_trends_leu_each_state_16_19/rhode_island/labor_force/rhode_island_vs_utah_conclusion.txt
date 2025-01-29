@@ -1,0 +1,15 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+rhode_island vs utah
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.012
+   - Statistical significance (p-value): 0.3453
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

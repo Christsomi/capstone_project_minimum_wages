@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+new_jersey vs oklahoma
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0031
+   - Statistical significance (p-value): 0.6147
+   - Year-to-year volatility: 0.0147
+   - Maximum deviation: 0.044
+   - Pre-treatment observations: 8
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

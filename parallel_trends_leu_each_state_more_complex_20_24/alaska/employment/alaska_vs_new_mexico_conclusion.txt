@@ -1,0 +1,17 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+alaska vs new_mexico
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0022
+   - Statistical significance (p-value): 0.8255
+   - Year-to-year volatility: 0.0211
+   - Maximum deviation: 0.059
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

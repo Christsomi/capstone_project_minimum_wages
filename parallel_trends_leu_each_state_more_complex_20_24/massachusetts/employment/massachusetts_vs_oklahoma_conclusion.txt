@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+massachusetts vs oklahoma
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0141
+   - Statistical significance (p-value): 0.0057
+   - Year-to-year volatility: 0.0101
+   - Maximum deviation: 0.029
+   - Pre-treatment observations: 10
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

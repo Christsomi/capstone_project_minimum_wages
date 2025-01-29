@@ -1,0 +1,15 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+minnesota vs north_dakota
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 5e-04
+   - Statistical significance (p-value): 0.9797
+   - Assessment: ✓ Parallel trends assumption appears to hold
+
+Recommendation:
+✓ Suitable for DiD analysis
+

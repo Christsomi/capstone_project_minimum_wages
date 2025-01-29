@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+south_dakota vs iowa
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0053
+   - Statistical significance (p-value): 0.2502
+   - Year-to-year volatility: 0.0123
+   - Maximum deviation: 0.17
+   - Pre-treatment observations: 10
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

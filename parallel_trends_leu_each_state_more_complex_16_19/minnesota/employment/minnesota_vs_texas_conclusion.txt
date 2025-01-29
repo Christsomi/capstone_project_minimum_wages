@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+minnesota vs texas
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.0155
+   - Statistical significance (p-value): 0.037
+   - Year-to-year volatility: 0.0155
+   - Maximum deviation: 0.144
+   - Pre-treatment observations: 6
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

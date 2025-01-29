@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+massachusetts vs louisiana
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0164
+   - Statistical significance (p-value): 4e-04
+   - Year-to-year volatility: 0.0269
+   - Maximum deviation: 0.12
+   - Pre-treatment observations: 10
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

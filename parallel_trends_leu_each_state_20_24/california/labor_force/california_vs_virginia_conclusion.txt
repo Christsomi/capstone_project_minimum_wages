@@ -1,0 +1,15 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+california vs virginia
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0059
+   - Statistical significance (p-value): 0.0158
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

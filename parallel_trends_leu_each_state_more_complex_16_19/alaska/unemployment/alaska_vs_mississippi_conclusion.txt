@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+alaska vs mississippi
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0039
+   - Statistical significance (p-value): 0.8357
+   - Year-to-year volatility: 0.0582
+   - Maximum deviation: 0.222
+   - Pre-treatment observations: 10
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

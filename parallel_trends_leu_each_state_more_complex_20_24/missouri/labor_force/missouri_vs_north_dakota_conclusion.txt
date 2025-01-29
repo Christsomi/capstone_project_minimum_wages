@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+missouri vs north_dakota
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.001
+   - Statistical significance (p-value): 0.973
+   - Year-to-year volatility: 0.0289
+   - Maximum deviation: 0.071
+   - Pre-treatment observations: 6
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

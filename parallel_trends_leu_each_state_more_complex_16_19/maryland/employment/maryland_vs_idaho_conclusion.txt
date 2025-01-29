@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+maryland vs idaho
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0122
+   - Statistical significance (p-value): 0.1921
+   - Year-to-year volatility: 0.0292
+   - Maximum deviation: 0.075
+   - Pre-treatment observations: 10
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

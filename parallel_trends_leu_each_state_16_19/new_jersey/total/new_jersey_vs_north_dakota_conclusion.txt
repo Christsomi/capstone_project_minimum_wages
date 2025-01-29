@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+new_jersey vs north_dakota
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 4424.8
+   - Statistical significance (p-value): 0.0105
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

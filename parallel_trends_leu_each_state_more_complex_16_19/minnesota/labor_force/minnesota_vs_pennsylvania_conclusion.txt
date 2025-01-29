@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+minnesota vs pennsylvania
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.0145
+   - Statistical significance (p-value): 0.0609
+   - Year-to-year volatility: 0.0153
+   - Maximum deviation: 0.114
+   - Pre-treatment observations: 6
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

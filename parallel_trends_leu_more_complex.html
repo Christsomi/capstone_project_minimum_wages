@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEU Parallel Trends Analysis</title>
+    <link rel="stylesheet" href="parallel_trends_leu_more_complex.css">
+</head>
+<body>
+    <div style="background-color: #ffebee; color: #c62828; padding: 20px; margin: 20px 0; border: 2px solid #c62828; text-align: center; font-size: 24px; font-weight: bold;">
+        This section is currently under development and not yet ready for use
+    </div>
+
+    <div class="container">
+        <h1>LEU Parallel Trends Analysis</h1>
+        
+        <div class="controls">
+            <div class="age-group-select">
+                <label for="age-group">Select Age Group:</label>
+                <select id="age-group">
+                    <option value="16_19">16-19</option>
+                    <option value="20_24">20-24</option>
+                </select>
+            </div>
+
+            <div class="state-select">
+                <label for="state">Select State:</label>
+                <select id="state">
+                    <option value="">Choose a State</option>
+                    <option value="alaska">Alaska</option>
+                    <option value="arkansas">Arkansas</option>
+                    <option value="california">California</option>
+                    <option value="connecticut">Connecticut</option>
+                    <option value="delaware">Delaware</option>
+                    <option value="florida">Florida</option>
+                    <option value="georgia">Georgia</option>
+                    <option value="hawaii">Hawaii</option>
+                    <option value="maine">Maine</option>
+                    <option value="maryland">Maryland</option>
+                    <option value="massachusetts">Massachusetts</option>
+                    <option value="michigan">Michigan</option>
+                    <option value="minnesota">Minnesota</option>
+                    <option value="missouri">Missouri</option>
+                    <option value="nebraska">Nebraska</option>
+                    <option value="new_jersey">New Jersey</option>
+                    <option value="new_york">New York</option>
+                    <option value="rhode_island">Rhode Island</option>
+                    <option value="south_dakota">South Dakota</option>
+                    <option value="west_virginia">West Virginia</option>
+                    <option value="wyoming">Wyoming</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="results-container">
+            <div id="table-container"></div>
+        </div>
+
+        <div id="cell-details-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <div id="cell-details-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="parallel_trends_leu_more_complex.js"></script>
+</body>
+</html>

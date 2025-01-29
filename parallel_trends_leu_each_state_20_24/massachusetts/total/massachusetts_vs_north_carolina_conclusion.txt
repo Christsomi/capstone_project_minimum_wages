@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+massachusetts vs north_carolina
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 8643.8
+   - Statistical significance (p-value): 0.0734
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

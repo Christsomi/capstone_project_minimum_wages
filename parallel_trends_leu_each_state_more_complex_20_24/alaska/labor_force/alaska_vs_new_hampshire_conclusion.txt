@@ -1,0 +1,17 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+alaska vs new_hampshire
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0047
+   - Statistical significance (p-value): 0.629
+   - Year-to-year volatility: 0.0214
+   - Maximum deviation: 0.055
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

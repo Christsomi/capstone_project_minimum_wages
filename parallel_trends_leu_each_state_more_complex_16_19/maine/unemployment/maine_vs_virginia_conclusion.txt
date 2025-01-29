@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+maine vs virginia
+==============================================
+
+Treatment Year: 2017
+
+Analysis Results:
+   - Trend difference: 3e-04
+   - Statistical significance (p-value): 0.9632
+   - Year-to-year volatility: 0.0207
+   - Maximum deviation: 0.073
+   - Pre-treatment observations: 14
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

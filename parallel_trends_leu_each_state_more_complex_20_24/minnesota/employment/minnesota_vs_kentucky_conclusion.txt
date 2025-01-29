@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+minnesota vs kentucky
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.0145
+   - Statistical significance (p-value): 0.1402
+   - Year-to-year volatility: 0.0167
+   - Maximum deviation: 0.136
+   - Pre-treatment observations: 6
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

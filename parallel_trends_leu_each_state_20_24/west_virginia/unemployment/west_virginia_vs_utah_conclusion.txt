@@ -1,0 +1,15 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+west_virginia vs utah
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0044
+   - Statistical significance (p-value): 0.1246
+   - Assessment: ✓ Parallel trends assumption appears to hold
+
+Recommendation:
+✓ Suitable for DiD analysis
+

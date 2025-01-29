@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+west_virginia vs indiana
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 545.5
+   - Statistical significance (p-value): 0.812
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

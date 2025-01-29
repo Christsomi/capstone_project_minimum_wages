@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+georgia vs virginia
+==============================================
+
+Treatment Year: 2019
+
+Analysis Results:
+   - Trend difference: 2560.1833
+   - Statistical significance (p-value): 0.1565
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

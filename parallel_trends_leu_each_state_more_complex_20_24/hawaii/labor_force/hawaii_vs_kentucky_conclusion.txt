@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+hawaii vs kentucky
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0101
+   - Statistical significance (p-value): 0.2128
+   - Year-to-year volatility: 0.0153
+   - Maximum deviation: 0.036
+   - Pre-treatment observations: 10
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+west_virginia vs north_dakota
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0069
+   - Statistical significance (p-value): 0.0598
+   - Year-to-year volatility: 0.0144
+   - Maximum deviation: 0.116
+   - Pre-treatment observations: 10
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

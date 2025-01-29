@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+rhode_island vs idaho
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.0345
+   - Statistical significance (p-value): 0.4821
+   - Year-to-year volatility: 0.0646
+   - Maximum deviation: 0.386
+   - Pre-treatment observations: 6
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

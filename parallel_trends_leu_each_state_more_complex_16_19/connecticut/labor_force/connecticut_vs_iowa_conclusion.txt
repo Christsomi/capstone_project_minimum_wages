@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+connecticut vs iowa
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0018
+   - Statistical significance (p-value): 0.8476
+   - Year-to-year volatility: 0.0216
+   - Maximum deviation: 0.109
+   - Pre-treatment observations: 8
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

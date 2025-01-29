@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+new_jersey vs louisiana
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0039
+   - Statistical significance (p-value): 0.5748
+   - Year-to-year volatility: 0.0077
+   - Maximum deviation: 0.023
+   - Pre-treatment observations: 8
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

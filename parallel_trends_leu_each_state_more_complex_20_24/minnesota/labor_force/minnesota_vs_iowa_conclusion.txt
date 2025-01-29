@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+minnesota vs iowa
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.0195
+   - Statistical significance (p-value): 0.0958
+   - Year-to-year volatility: 0.0065
+   - Maximum deviation: 0.023
+   - Pre-treatment observations: 6
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

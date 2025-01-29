@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+california vs north_carolina
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 40561.8
+   - Statistical significance (p-value): 0.001
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

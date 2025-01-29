@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+arkansas vs alabama
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 305.2
+   - Statistical significance (p-value): 0.8599
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

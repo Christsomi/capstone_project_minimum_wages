@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+new_york vs north_carolina
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0015
+   - Statistical significance (p-value): 0.7916
+   - Year-to-year volatility: 0.0083
+   - Maximum deviation: 0.031
+   - Pre-treatment observations: 8
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

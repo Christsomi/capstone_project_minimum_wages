@@ -1,0 +1,15 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+west_virginia vs texas
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0021
+   - Statistical significance (p-value): 0.5698
+   - Assessment: ✓ Parallel trends assumption appears to hold
+
+Recommendation:
+✓ Suitable for DiD analysis
+

@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+michigan vs louisiana
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.018
+   - Statistical significance (p-value): 0.0497
+   - Year-to-year volatility: 0.0271
+   - Maximum deviation: 0.073
+   - Pre-treatment observations: 8
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

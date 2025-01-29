@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+south_dakota vs oklahoma
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.021
+   - Statistical significance (p-value): 0.0143
+   - Year-to-year volatility: 0.034
+   - Maximum deviation: 0.116
+   - Pre-treatment observations: 10
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

@@ -1,0 +1,15 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+south_dakota vs north_dakota
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0178
+   - Statistical significance (p-value): 0.0467
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

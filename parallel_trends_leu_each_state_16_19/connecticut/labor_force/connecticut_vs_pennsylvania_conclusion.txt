@@ -1,0 +1,15 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+connecticut vs pennsylvania
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0065
+   - Statistical significance (p-value): 0.3627
+   - Assessment: ✓ Parallel trends assumption appears to hold
+
+Recommendation:
+✓ Suitable for DiD analysis
+

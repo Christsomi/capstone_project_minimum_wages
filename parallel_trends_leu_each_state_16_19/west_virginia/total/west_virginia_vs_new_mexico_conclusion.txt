@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+west_virginia vs new_mexico
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 3345.6
+   - Statistical significance (p-value): 0.1088
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

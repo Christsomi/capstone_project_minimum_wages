@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+connecticut vs texas
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0098
+   - Statistical significance (p-value): 0.0721
+   - Year-to-year volatility: 0.0139
+   - Maximum deviation: 0.05
+   - Pre-treatment observations: 8
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

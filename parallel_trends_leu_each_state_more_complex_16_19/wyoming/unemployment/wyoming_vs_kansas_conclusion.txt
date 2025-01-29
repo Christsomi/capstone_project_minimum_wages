@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+wyoming vs kansas
+==============================================
+
+Treatment Year: 2019
+
+Analysis Results:
+   - Trend difference: 0.0064
+   - Statistical significance (p-value): 0.0236
+   - Year-to-year volatility: 0.0217
+   - Maximum deviation: 0.07
+   - Pre-treatment observations: 18
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

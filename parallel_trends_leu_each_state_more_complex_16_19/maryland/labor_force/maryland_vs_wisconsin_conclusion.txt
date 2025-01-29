@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+maryland vs wisconsin
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0071
+   - Statistical significance (p-value): 0.3013
+   - Year-to-year volatility: 0.0185
+   - Maximum deviation: 0.058
+   - Pre-treatment observations: 10
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

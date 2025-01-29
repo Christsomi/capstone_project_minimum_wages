@@ -1,0 +1,15 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+minnesota vs virginia
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.0255
+   - Statistical significance (p-value): 0.4356
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

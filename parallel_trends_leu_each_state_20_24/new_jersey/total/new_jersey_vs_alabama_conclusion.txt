@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+new_jersey vs alabama
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 3851.1
+   - Statistical significance (p-value): 0.0952
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

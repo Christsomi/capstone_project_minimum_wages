@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+delaware vs north_dakota
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0025
+   - Statistical significance (p-value): 0.8211
+   - Year-to-year volatility: 0.0257
+   - Maximum deviation: 0.221
+   - Pre-treatment observations: 8
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

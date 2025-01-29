@@ -1,0 +1,15 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+connecticut vs indiana
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0101
+   - Statistical significance (p-value): 0.1956
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

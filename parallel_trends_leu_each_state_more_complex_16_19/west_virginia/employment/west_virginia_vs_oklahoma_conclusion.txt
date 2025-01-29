@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+west_virginia vs oklahoma
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0105
+   - Statistical significance (p-value): 0.1039
+   - Year-to-year volatility: 0.0217
+   - Maximum deviation: 0.092
+   - Pre-treatment observations: 10
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

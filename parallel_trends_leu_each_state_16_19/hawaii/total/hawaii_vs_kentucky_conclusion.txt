@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+hawaii vs kentucky
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 1227.4
+   - Statistical significance (p-value): 0.3585
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

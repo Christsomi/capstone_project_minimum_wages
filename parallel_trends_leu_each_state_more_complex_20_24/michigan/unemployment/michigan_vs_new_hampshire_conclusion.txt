@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+michigan vs new_hampshire
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0155
+   - Statistical significance (p-value): 0.0074
+   - Year-to-year volatility: 0.0202
+   - Maximum deviation: 0.09
+   - Pre-treatment observations: 8
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

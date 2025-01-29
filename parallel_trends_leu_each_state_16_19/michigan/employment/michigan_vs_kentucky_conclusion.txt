@@ -1,0 +1,15 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+michigan vs kentucky
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0114
+   - Statistical significance (p-value): 0.0548
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

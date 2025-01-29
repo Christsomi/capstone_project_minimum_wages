@@ -1,0 +1,17 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+alaska vs pennsylvania
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0108
+   - Statistical significance (p-value): 0.2614
+   - Year-to-year volatility: 0.0207
+   - Maximum deviation: 0.053
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+alaska vs oklahoma
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0042
+   - Statistical significance (p-value): 0.7082
+   - Year-to-year volatility: 0.0209
+   - Maximum deviation: 0.057
+   - Pre-treatment observations: 10
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

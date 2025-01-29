@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labor Market Theory Graphs</title>
+    <link rel="stylesheet" href="theory_graphs.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Labor Market Theory Interactive Graphs</h1>
+        </header>
+
+        <div class="graph-container">
+            <div class="graph-box">
+                <div class="graph-header">
+                    <h2>Competitive Labor Market</h2>
+                    <p>Perfect competition model with minimum wage effects</p>
+                </div>
+                <canvas id="competitiveCanvas"></canvas>
+                <div class="controls">
+                    <div class="control-group">
+                        <label for="compSupplySlope">
+                            <span class="label-text">Supply Curve Slope</span>
+                            <span class="value-display" id="compSupplySlopeValue">50%</span>
+                        </label>
+                        <input type="range" id="compSupplySlope" min="10" max="100" value="50">
+                    </div>
+                    <div class="control-group">
+                        <label for="compDemandSlope">
+                            <span class="label-text">Demand Curve Slope</span>
+                            <span class="value-display" id="compDemandSlopeValue">50%</span>
+                        </label>
+                        <input type="range" id="compDemandSlope" min="10" max="100" value="50">
+                    </div>
+                    <div class="control-group">
+                        <label for="compMinWage">
+                            <span class="label-text">Minimum Wage Level</span>
+                            <span class="value-display" id="compMinWageValue">$2.50</span>
+                        </label>
+                        <input type="range" id="compMinWage" min="0" max="100" value="50">
+                    </div>
+                </div>
+            </div>
+
+            <div class="graph-box">
+                <div class="graph-header">
+                    <h2>Monopsony Labor Market</h2>
+                    <p>Single buyer model with minimum wage effects</p>
+                </div>
+                <canvas id="monopsonyCanvas"></canvas>
+                <div class="controls">
+                    <div class="control-group">
+                        <label for="monoSupplySlope">
+                            <span class="label-text">Supply Curve Slope</span>
+                            <span class="value-display" id="monoSupplySlopeValue">50%</span>
+                        </label>
+                        <input type="range" id="monoSupplySlope" min="10" max="100" value="50">
+                    </div>
+                    <div class="control-group">
+                        <label for="monoMCSlope">
+                            <span class="label-text">Marginal Cost Slope</span>
+                            <span class="value-display" id="monoMCSlopeValue">70%</span>
+                        </label>
+                        <input type="range" id="monoMCSlope" min="10" max="100" value="70">
+                    </div>
+                    <div class="control-group">
+                        <label for="monoDemandSlope">
+                            <span class="label-text">Demand Curve Slope</span>
+                            <span class="value-display" id="monoDemandSlopeValue">50%</span>
+                        </label>
+                        <input type="range" id="monoDemandSlope" min="10" max="100" value="50">
+                    </div>
+                    <div class="control-group">
+                        <label for="monoMinWage">
+                            <span class="label-text">Minimum Wage Level</span>
+                            <span class="value-display" id="monoMinWageValue">$2.50</span>
+                        </label>
+                        <input type="range" id="monoMinWage" min="0" max="100" value="50">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="legend">
+                <div class="legend-item"><span class="color-box supply"></span>Supply Curve</div>
+                <div class="legend-item"><span class="color-box demand"></span>Demand Curve</div>
+                <div class="legend-item"><span class="color-box mc"></span>Marginal Cost</div>
+                <div class="legend-item"><span class="color-box minwage"></span>Minimum Wage</div>
+            </div>
+            <div class="footer-text">
+            </div>
+        </footer>
+    </div>
+
+    <script src="theory_graphs.js"></script>
+</body>
+</html>

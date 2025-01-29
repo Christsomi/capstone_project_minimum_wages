@@ -1,0 +1,15 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+massachusetts vs indiana
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 5e-04
+   - Statistical significance (p-value): 0.8862
+   - Assessment: ✓ Parallel trends assumption appears to hold
+
+Recommendation:
+✓ Suitable for DiD analysis
+

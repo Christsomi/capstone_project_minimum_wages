@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+connecticut vs indiana
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 6164
+   - Statistical significance (p-value): 0.0169
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+georgia vs tennessee
+==============================================
+
+Treatment Year: 2019
+
+Analysis Results:
+   - Trend difference: 0.0104
+   - Statistical significance (p-value): 0.0103
+   - Year-to-year volatility: 0.0359
+   - Maximum deviation: 0.183
+   - Pre-treatment observations: 18
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

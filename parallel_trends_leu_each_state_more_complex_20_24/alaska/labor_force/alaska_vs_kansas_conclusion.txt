@@ -1,0 +1,17 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+alaska vs kansas
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0103
+   - Statistical significance (p-value): 0.0325
+   - Year-to-year volatility: 0.0191
+   - Maximum deviation: 0.052
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

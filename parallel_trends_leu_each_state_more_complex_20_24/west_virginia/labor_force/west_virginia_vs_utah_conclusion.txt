@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+west_virginia vs utah
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0019
+   - Statistical significance (p-value): 0.619
+   - Year-to-year volatility: 0.0089
+   - Maximum deviation: 0.045
+   - Pre-treatment observations: 10
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

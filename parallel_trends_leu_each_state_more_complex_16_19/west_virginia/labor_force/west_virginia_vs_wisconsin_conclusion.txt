@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+west_virginia vs wisconsin
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0021
+   - Statistical significance (p-value): 0.7832
+   - Year-to-year volatility: 0.0094
+   - Maximum deviation: 0.036
+   - Pre-treatment observations: 10
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

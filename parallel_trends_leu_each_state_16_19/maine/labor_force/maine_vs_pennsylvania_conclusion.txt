@@ -1,0 +1,15 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+maine vs pennsylvania
+==============================================
+
+Treatment Year: 2017
+
+Analysis Results:
+   - Trend difference: 0.0042
+   - Statistical significance (p-value): 0.0448
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

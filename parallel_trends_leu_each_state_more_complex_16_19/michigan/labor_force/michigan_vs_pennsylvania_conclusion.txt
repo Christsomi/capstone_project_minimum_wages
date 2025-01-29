@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+michigan vs pennsylvania
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0012
+   - Statistical significance (p-value): 0.5379
+   - Year-to-year volatility: 0.0032
+   - Maximum deviation: 0.008
+   - Pre-treatment observations: 8
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+massachusetts vs utah
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0037
+   - Statistical significance (p-value): 0.3122
+   - Year-to-year volatility: 0.012
+   - Maximum deviation: 0.084
+   - Pre-treatment observations: 10
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

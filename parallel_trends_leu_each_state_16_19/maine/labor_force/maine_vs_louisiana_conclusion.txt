@@ -1,0 +1,15 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+maine vs louisiana
+==============================================
+
+Treatment Year: 2017
+
+Analysis Results:
+   - Trend difference: 0.0106
+   - Statistical significance (p-value): 0.0042
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

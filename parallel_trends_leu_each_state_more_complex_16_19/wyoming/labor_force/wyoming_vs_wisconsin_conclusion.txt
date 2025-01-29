@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+wyoming vs wisconsin
+==============================================
+
+Treatment Year: 2019
+
+Analysis Results:
+   - Trend difference: 0.0065
+   - Statistical significance (p-value): 0.008
+   - Year-to-year volatility: 0.0225
+   - Maximum deviation: 0.185
+   - Pre-treatment observations: 18
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

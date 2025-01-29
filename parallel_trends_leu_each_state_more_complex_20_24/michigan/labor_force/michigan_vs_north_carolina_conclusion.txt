@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+michigan vs north_carolina
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 7e-04
+   - Statistical significance (p-value): 0.9264
+   - Year-to-year volatility: 0.0079
+   - Maximum deviation: 0.024
+   - Pre-treatment observations: 8
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

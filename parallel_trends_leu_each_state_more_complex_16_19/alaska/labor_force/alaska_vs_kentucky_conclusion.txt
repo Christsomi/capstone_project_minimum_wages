@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+alaska vs kentucky
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 1e-04
+   - Statistical significance (p-value): 0.9929
+   - Year-to-year volatility: 0.0155
+   - Maximum deviation: 0.034
+   - Pre-treatment observations: 10
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

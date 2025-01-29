@@ -1,0 +1,15 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+maryland vs new_hampshire
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0115
+   - Statistical significance (p-value): 0.099
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

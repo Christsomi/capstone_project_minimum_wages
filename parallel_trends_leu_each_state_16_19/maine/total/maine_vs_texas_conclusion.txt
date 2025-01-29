@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+maine vs texas
+==============================================
+
+Treatment Year: 2017
+
+Analysis Results:
+   - Trend difference: 551.6786
+   - Statistical significance (p-value): 0.4872
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

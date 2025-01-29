@@ -1,0 +1,15 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+maine vs tennessee
+==============================================
+
+Treatment Year: 2017
+
+Analysis Results:
+   - Trend difference: 0.0041
+   - Statistical significance (p-value): 0.4997
+   - Assessment: ✓ Parallel trends assumption appears to hold
+
+Recommendation:
+✓ Suitable for DiD analysis
+

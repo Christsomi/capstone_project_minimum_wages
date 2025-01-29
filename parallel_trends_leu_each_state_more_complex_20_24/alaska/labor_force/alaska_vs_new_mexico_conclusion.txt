@@ -1,0 +1,17 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+alaska vs new_mexico
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0098
+   - Statistical significance (p-value): 0.0689
+   - Year-to-year volatility: 0.0174
+   - Maximum deviation: 0.116
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

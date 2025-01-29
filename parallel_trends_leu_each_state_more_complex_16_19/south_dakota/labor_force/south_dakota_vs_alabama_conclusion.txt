@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+south_dakota vs alabama
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.016
+   - Statistical significance (p-value): 0.0074
+   - Year-to-year volatility: 0.0256
+   - Maximum deviation: 0.078
+   - Pre-treatment observations: 10
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

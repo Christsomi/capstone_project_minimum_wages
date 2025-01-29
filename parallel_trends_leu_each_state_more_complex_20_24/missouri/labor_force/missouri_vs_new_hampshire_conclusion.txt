@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+missouri vs new_hampshire
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.019
+   - Statistical significance (p-value): 0.2969
+   - Year-to-year volatility: 0.0217
+   - Maximum deviation: 0.042
+   - Pre-treatment observations: 6
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

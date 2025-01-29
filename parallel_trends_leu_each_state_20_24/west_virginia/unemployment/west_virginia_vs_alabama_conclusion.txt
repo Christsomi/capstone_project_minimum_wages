@@ -1,0 +1,15 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+west_virginia vs alabama
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0063
+   - Statistical significance (p-value): 0.099
+   - Assessment: ✓ Parallel trends assumption appears to hold
+
+Recommendation:
+✓ Suitable for DiD analysis
+

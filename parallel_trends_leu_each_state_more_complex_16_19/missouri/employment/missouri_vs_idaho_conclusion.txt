@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+missouri vs idaho
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.032
+   - Statistical significance (p-value): 0.0962
+   - Year-to-year volatility: 0.0101
+   - Maximum deviation: 0.036
+   - Pre-treatment observations: 6
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

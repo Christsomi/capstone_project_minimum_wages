@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+rhode_island vs kentucky
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.009
+   - Statistical significance (p-value): 0.2855
+   - Year-to-year volatility: 0.0101
+   - Maximum deviation: 0.24
+   - Pre-treatment observations: 6
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+new_york vs iowa
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 3893.9
+   - Statistical significance (p-value): 0.1217
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

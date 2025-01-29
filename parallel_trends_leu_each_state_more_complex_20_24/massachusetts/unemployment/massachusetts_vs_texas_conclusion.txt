@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+massachusetts vs texas
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 2e-04
+   - Statistical significance (p-value): 0.8991
+   - Year-to-year volatility: 0.0044
+   - Maximum deviation: 0.043
+   - Pre-treatment observations: 10
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

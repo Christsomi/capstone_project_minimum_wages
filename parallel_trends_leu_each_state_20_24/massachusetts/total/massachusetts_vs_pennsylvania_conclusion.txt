@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+massachusetts vs pennsylvania
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 6416.8
+   - Statistical significance (p-value): 0.1101
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

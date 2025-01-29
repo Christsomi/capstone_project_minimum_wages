@@ -1,0 +1,11 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+florida vs wisconsin
+==============================================
+
+Treatment Year: 2012
+
+Analysis Results:
+⚠ WARNING: Insufficient data for trend analysis
+Consider using alternative methods or examining the plots visually.
+

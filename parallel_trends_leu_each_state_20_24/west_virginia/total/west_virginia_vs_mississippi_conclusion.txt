@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+west_virginia vs mississippi
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 6966.4
+   - Statistical significance (p-value): 0.0404
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

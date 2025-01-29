@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+wyoming vs north_carolina
+==============================================
+
+Treatment Year: 2019
+
+Analysis Results:
+   - Trend difference: 0.0011
+   - Statistical significance (p-value): 0.5461
+   - Year-to-year volatility: 0.012
+   - Maximum deviation: 0.081
+   - Pre-treatment observations: 18
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

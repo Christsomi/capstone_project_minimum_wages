@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+missouri vs utah
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 5e-04
+   - Statistical significance (p-value): 0.9533
+   - Year-to-year volatility: 0.0084
+   - Maximum deviation: 0.079
+   - Pre-treatment observations: 6
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

@@ -1,0 +1,15 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+maine vs iowa
+==============================================
+
+Treatment Year: 2017
+
+Analysis Results:
+   - Trend difference: 8e-04
+   - Statistical significance (p-value): 0.8381
+   - Assessment: ✓ Parallel trends assumption appears to hold
+
+Recommendation:
+✓ Suitable for DiD analysis
+

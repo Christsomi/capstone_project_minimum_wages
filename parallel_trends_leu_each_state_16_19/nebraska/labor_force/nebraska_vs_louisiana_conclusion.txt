@@ -1,0 +1,15 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+nebraska vs louisiana
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.015
+   - Statistical significance (p-value): 0.0265
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

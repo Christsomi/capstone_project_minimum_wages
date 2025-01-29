@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+maine vs new_hampshire
+==============================================
+
+Treatment Year: 2017
+
+Analysis Results:
+   - Trend difference: 0.0047
+   - Statistical significance (p-value): 0.2095
+   - Year-to-year volatility: 0.0135
+   - Maximum deviation: 0.039
+   - Pre-treatment observations: 14
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

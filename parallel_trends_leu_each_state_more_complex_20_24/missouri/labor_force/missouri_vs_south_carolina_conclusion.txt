@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+missouri vs south_carolina
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.0015
+   - Statistical significance (p-value): 0.8879
+   - Year-to-year volatility: 0.0119
+   - Maximum deviation: 0.026
+   - Pre-treatment observations: 6
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

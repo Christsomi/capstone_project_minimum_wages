@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+new_york vs mississippi
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.001
+   - Statistical significance (p-value): 0.9042
+   - Year-to-year volatility: 0.005
+   - Maximum deviation: 0.019
+   - Pre-treatment observations: 8
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

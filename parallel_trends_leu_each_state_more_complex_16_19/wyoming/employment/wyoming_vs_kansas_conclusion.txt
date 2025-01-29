@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+wyoming vs kansas
+==============================================
+
+Treatment Year: 2019
+
+Analysis Results:
+   - Trend difference: 0.0056
+   - Statistical significance (p-value): 0.0118
+   - Year-to-year volatility: 0.021
+   - Maximum deviation: 0.077
+   - Pre-treatment observations: 18
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

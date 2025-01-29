@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Matching Explorer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .card {
+            background: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+
+        .card-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .card-content {
+            padding: 1.5rem;
+        }
+
+        .alert {
+            padding: 1rem;
+            border-radius: 0.5rem;
+            background-color: #f8f9fa;
+            border: 1px solid #e5e7eb;
+        }
+
+        .method-button {
+            width: 100%;
+            text-align: left;
+            transition: all 0.3s ease;
+        }
+
+        .method-button.active {
+            background-color: #2563eb;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .method-button:not(.active):hover {
+            background-color: #f3f4f6;
+        }
+
+        .dot {
+            height: 0.5rem;
+            width: 0.5rem;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .dot-green {
+            background-color: #22c55e;
+        }
+
+        .dot-red {
+            background-color: #ef4444;
+        }
+
+        .example-pair {
+            background-color: #f9fafb;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="w-full max-w-6xl mx-auto p-6 space-y-8">
+        <div class="text-center mb-8">
+            <h1 class="text-4xl font-bold mb-4">State Matching Approaches</h1>
+            <p class="text-lg text-gray-600">
+                Explore different methods for pairing treatment and control states in minimum wage research
+            </p>
+        </div>
+
+        <div id="methodButtons" class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-xl font-semibold flex items-center gap-2">
+                        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        Example Pairs
+                    </h2>
+                    <p class="text-gray-600" id="exampleDescription"></p>
+                </div>
+                <div class="card-content">
+                    <div id="examples" class="space-y-4">
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="text-xl font-semibold flex items-center gap-2">
+                            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 6l-9.5 9.5-5-5L1 18"></path>
+                            </svg>
+                            Advantages
+                        </h2>
+                    </div>
+                    <div class="card-content">
+                        <ul id="advantages" class="space-y-2">
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="text-xl font-semibold flex items-center gap-2">
+                            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12" y2="8"></line>
+                            </svg>
+                            Limitations
+                        </h2>
+                    </div>
+                    <div class="card-content">
+                        <ul id="disadvantages" class="space-y-2">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert mt-8">
+            <h3 class="text-lg font-semibold flex items-center gap-2 mb-2">
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12" y2="8"></line>
+                </svg>
+                Research Note
+            </h3>
+            <p>
+                I combine multiple approaches for robustness checks and to address the limitations
+                of each individual method.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const matchingMethods = {
+            border: {
+                title: "Border State Matching",
+                description: "Matches treatment states with their geographical neighbors, following Dube et al. (2010)",
+                examples: [
+                    {
+                        treatment: "Washington",
+                        control: "Idaho, Oregon",
+                        reasoning: "Shares economic conditions and regional trends"
+                    },
+                    {
+                        treatment: "Massachusetts",
+                        control: "New Hampshire, Rhode Island",
+                        reasoning: "Similar New England regional characteristics"
+                    }
+                ],
+                advantages: [
+                    "Controls for regional economic shocks",
+                    "Similar labor markets and migration patterns",
+                    "Accounts for spatial heterogeneity"
+                ],
+                disadvantages: [
+                    "May miss better non-neighboring matches",
+                    "Border effects can contaminate control group",
+                    "Limited pool of potential controls"
+                ]
+            },
+            synthetic: {
+                title: "Synthetic Control Matching",
+                description: "Creates synthetic control states using weighted combinations of non-treated states",
+                examples: [
+                    {
+                        treatment: "California",
+                        control: "Mix of TX (0.3), FL (0.3), NY (0.4)",
+                        reasoning: "Weighted by economic indicators"
+                    },
+                    {
+                        treatment: "New York",
+                        control: "Mix of IL (0.4), PA (0.3), MI (0.3)",
+                        reasoning: "Similar urban-rural composition"
+                    }
+                ],
+                advantages: [
+                    "Data-driven approach to control selection",
+                    "Can better match pre-treatment trends",
+                    "Transparent weighting system"
+                ],
+                disadvantages: [
+                    "Complex implementation",
+                    "Requires strong pre-treatment fit",
+                    "Sensitivity to donor pool selection"
+                ]
+            },
+            characteristics: {
+                title: "Economic Characteristic Matching",
+                description: "Pairs states based on similar economic and demographic features",
+                examples: [
+                    {
+                        treatment: "Colorado",
+                        control: "Minnesota",
+                        reasoning: "Similar education levels and industry mix"
+                    },
+                    {
+                        treatment: "Virginia",
+                        control: "Maryland",
+                        reasoning: "Comparable income levels and urbanization"
+                    }
+                ],
+                advantages: [
+                    "Focuses on economic similarity",
+                    "Not constrained by geography",
+                    "Can prioritize relevant characteristics"
+                ],
+                disadvantages: [
+                    "May miss unobserved confounders",
+                    "Requires careful variable selection",
+                    "Could ignore important regional factors"
+                ]
+            }
+        };
+
+        let selectedMethod = 'border';
+
+        function createMethodButtons() {
+            const container = document.getElementById('methodButtons');
+            Object.entries(matchingMethods).forEach(([key, method]) => {
+                const button = document.createElement('button');
+                button.className = `method-button card p-6 ${key === selectedMethod ? 'active' : ''}`;
+                button.innerHTML = `
+                    <h3 class="text-xl font-semibold mb-2">${method.title}</h3>
+                    <p class="text-sm ${key === selectedMethod ? 'text-blue-100' : 'text-gray-600'}">
+                        ${method.description}
+                    </p>
+                `;
+                button.onclick = () => updateSelectedMethod(key);
+                container.appendChild(button);
+            });
+        }
+
+        function updateExamples() {
+            const container = document.getElementById('examples');
+            const description = document.getElementById('exampleDescription');
+            const method = matchingMethods[selectedMethod];
+            
+            description.textContent = `Real-world examples of ${method.title.toLowerCase()}`;
+            container.innerHTML = '';
+            
+            method.examples.forEach(example => {
+                const div = document.createElement('div');
+                div.className = 'example-pair';
+                div.innerHTML = `
+                    <div class="flex items-center gap-2 mb-2">
+                        <div class="font-semibold text-blue-600">Treatment:</div>
+                        <div>${example.treatment}</div>
+                        <svg class="h-4 w-4 mx-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 16V8m10 0v8M3 12h18"></path>
+                        </svg>
+                        <div class="font-semibold text-green-600">Control:</div>
+                        <div>${example.control}</div>
+                    </div>
+                    <div class="text-sm text-gray-600">
+                        <svg class="h-4 w-4 inline mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="12" r="6"></circle>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg>
+                        ${example.reasoning}
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        function updateAdvantages() {
+            const container = document.getElementById('advantages');
+            container.innerHTML = '';
+            matchingMethods[selectedMethod].advantages.forEach(adv => {
+                const li = document.createElement('li');
+                li.className = 'flex items-center gap-2';
+                li.innerHTML = `
+                    <span class="dot dot-green"></span>
+                    ${adv}
+                `;
+                container.appendChild(li);
+            });
+        }
+
+        function updateDisadvantages() {
+            const container = document.getElementById('disadvantages');
+            container.innerHTML = '';
+            matchingMethods[selectedMethod].disadvantages.forEach(dis => {
+                const li = document.createElement('li');
+                li.className = 'flex items-center gap-2';
+                li.innerHTML = `
+                    <span class="dot dot-red"></span>
+                    ${dis}
+                `;
+                container.appendChild(li);
+            });
+        }
+
+        function updateSelectedMethod(method) {
+            selectedMethod = method;
+            
+            document.querySelectorAll('.method-button').forEach(button => {
+                button.classList.remove('active');
+                const description = button.querySelector('p');
+                description.className = 'text-sm text-gray-600';
+            });
+            
+            const activeButton = document.querySelector(`.method-button:nth-child(${Object.keys(matchingMethods).indexOf(method) + 1})`);
+            activeButton.classList.add('active');
+            activeButton.querySelector('p').className = 'text-sm text-blue-100';
+            
+            updateExamples();
+            updateAdvantages();
+            updateDisadvantages();
+        }
+
+        createMethodButtons();
+        updateExamples();
+        updateAdvantages();
+        updateDisadvantages();
+    </script>
+</body>
+</html>

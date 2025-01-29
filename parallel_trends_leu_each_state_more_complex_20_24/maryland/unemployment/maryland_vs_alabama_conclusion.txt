@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+maryland vs alabama
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 8e-04
+   - Statistical significance (p-value): 0.8504
+   - Year-to-year volatility: 0.0128
+   - Maximum deviation: 0.054
+   - Pre-treatment observations: 10
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

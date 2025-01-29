@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+hawaii vs louisiana
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 542.3
+   - Statistical significance (p-value): 0.677
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

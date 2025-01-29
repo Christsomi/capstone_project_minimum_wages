@@ -1,0 +1,15 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+minnesota vs iowa
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.002
+   - Statistical significance (p-value): 0.6727
+   - Assessment: ✓ Parallel trends assumption appears to hold
+
+Recommendation:
+✓ Suitable for DiD analysis
+

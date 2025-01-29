@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+alaska vs new_hampshire
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 2e-04
+   - Statistical significance (p-value): 0.9916
+   - Year-to-year volatility: 0.0281
+   - Maximum deviation: 0.089
+   - Pre-treatment observations: 10
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

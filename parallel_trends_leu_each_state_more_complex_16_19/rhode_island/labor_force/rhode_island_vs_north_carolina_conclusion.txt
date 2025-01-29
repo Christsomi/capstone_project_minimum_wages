@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+rhode_island vs north_carolina
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.017
+   - Statistical significance (p-value): 0.361
+   - Year-to-year volatility: 0.018
+   - Maximum deviation: 0.242
+   - Pre-treatment observations: 6
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

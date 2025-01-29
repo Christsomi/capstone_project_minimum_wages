@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+alaska vs north_carolina
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 4e-04
+   - Statistical significance (p-value): 0.9814
+   - Year-to-year volatility: 0.0526
+   - Maximum deviation: 0.148
+   - Pre-treatment observations: 10
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

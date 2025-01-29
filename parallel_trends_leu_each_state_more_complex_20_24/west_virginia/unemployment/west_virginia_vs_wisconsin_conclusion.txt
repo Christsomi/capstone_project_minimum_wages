@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+west_virginia vs wisconsin
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.007
+   - Statistical significance (p-value): 0.128
+   - Year-to-year volatility: 0.0121
+   - Maximum deviation: 0.028
+   - Pre-treatment observations: 10
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+rhode_island vs alabama
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 5e-04
+   - Statistical significance (p-value): 0.9647
+   - Year-to-year volatility: 6e-04
+   - Maximum deviation: 0.19
+   - Pre-treatment observations: 6
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

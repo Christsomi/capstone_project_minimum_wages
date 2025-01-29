@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+connecticut vs kansas
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 2436.3
+   - Statistical significance (p-value): 0.122
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

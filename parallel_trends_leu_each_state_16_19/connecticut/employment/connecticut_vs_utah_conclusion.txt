@@ -1,0 +1,15 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+connecticut vs utah
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 7e-04
+   - Statistical significance (p-value): 0.8743
+   - Assessment: ✓ Parallel trends assumption appears to hold
+
+Recommendation:
+✓ Suitable for DiD analysis
+

@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+maine vs indiana
+==============================================
+
+Treatment Year: 2017
+
+Analysis Results:
+   - Trend difference: 1415.5714
+   - Statistical significance (p-value): 0.316
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

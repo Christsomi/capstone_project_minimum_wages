@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+rhode_island vs pennsylvania
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 4631
+   - Statistical significance (p-value): 0.1708
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

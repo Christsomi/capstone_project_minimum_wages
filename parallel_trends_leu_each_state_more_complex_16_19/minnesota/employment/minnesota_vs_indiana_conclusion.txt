@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+minnesota vs indiana
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.006
+   - Statistical significance (p-value): 0.7213
+   - Year-to-year volatility: 0.0178
+   - Maximum deviation: 0.135
+   - Pre-treatment observations: 6
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

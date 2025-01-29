@@ -1,0 +1,10 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+florida vs utah
+==============================================
+
+Treatment Year: 2012
+
+Analysis Results:
+⚠ WARNING: Insufficient data for reliable analysis
+

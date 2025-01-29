@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+new_york vs north_dakota
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 2e-04
+   - Statistical significance (p-value): 0.9728
+   - Year-to-year volatility: 0.0118
+   - Maximum deviation: 0.219
+   - Pre-treatment observations: 8
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

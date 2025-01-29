@@ -1,0 +1,17 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+alaska vs utah
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0105
+   - Statistical significance (p-value): 0.2734
+   - Year-to-year volatility: 0.024
+   - Maximum deviation: 0.054
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

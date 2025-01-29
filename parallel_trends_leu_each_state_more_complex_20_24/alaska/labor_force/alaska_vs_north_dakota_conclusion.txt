@@ -1,0 +1,17 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+alaska vs north_dakota
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0034
+   - Statistical significance (p-value): 0.6793
+   - Year-to-year volatility: 0.0107
+   - Maximum deviation: 0.031
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

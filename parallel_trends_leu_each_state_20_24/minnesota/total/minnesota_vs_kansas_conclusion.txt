@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+minnesota vs kansas
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 2701.5
+   - Statistical significance (p-value): 0.1944
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

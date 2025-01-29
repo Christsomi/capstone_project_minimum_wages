@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+maryland vs texas
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 3823.3
+   - Statistical significance (p-value): 0.0098
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

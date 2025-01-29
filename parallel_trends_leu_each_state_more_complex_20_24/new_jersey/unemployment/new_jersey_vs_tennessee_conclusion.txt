@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+new_jersey vs tennessee
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 3e-04
+   - Statistical significance (p-value): 0.973
+   - Year-to-year volatility: 0.018
+   - Maximum deviation: 0.104
+   - Pre-treatment observations: 8
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

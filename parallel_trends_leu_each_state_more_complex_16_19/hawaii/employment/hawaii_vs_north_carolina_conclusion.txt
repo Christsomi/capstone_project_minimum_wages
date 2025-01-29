@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+hawaii vs north_carolina
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 9e-04
+   - Statistical significance (p-value): 0.906
+   - Year-to-year volatility: 0.0085
+   - Maximum deviation: 0.021
+   - Pre-treatment observations: 10
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

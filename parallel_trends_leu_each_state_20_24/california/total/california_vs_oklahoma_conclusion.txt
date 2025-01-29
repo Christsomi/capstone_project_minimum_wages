@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+california vs oklahoma
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 41282.8
+   - Statistical significance (p-value): 0.0313
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

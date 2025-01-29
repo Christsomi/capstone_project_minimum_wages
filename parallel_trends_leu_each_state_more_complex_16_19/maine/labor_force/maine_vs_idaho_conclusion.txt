@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+maine vs idaho
+==============================================
+
+Treatment Year: 2017
+
+Analysis Results:
+   - Trend difference: 9e-04
+   - Statistical significance (p-value): 0.8468
+   - Year-to-year volatility: 0.0196
+   - Maximum deviation: 0.065
+   - Pre-treatment observations: 14
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

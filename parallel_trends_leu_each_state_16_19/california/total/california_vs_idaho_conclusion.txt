@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+california vs idaho
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 43807.9
+   - Statistical significance (p-value): 3e-04
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+minnesota vs south_carolina
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.012
+   - Statistical significance (p-value): 0.7771
+   - Year-to-year volatility: 0.0356
+   - Maximum deviation: 0.101
+   - Pre-treatment observations: 6
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

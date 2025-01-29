@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+michigan vs texas
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 9652.1
+   - Statistical significance (p-value): 0.0256
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

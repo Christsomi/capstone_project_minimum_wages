@@ -1,0 +1,10 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+florida vs new_mexico
+==============================================
+
+Treatment Year: 2012
+
+Analysis Results:
+⚠ WARNING: Insufficient data for reliable analysis
+

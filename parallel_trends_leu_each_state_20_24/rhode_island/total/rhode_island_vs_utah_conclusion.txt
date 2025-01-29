@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+rhode_island vs utah
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 45011.5
+   - Statistical significance (p-value): 0.0014
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+wyoming vs south_carolina
+==============================================
+
+Treatment Year: 2019
+
+Analysis Results:
+   - Trend difference: 2e-04
+   - Statistical significance (p-value): 0.9691
+   - Year-to-year volatility: 0.0375
+   - Maximum deviation: 0.121
+   - Pre-treatment observations: 18
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

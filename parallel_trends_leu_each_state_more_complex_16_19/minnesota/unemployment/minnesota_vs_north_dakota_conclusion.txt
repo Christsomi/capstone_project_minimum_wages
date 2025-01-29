@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+minnesota vs north_dakota
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 5e-04
+   - Statistical significance (p-value): 0.9797
+   - Year-to-year volatility: 0.0188
+   - Maximum deviation: 0.102
+   - Pre-treatment observations: 6
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

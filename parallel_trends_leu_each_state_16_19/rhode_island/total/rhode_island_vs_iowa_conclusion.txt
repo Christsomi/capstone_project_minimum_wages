@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+rhode_island vs iowa
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 1929.5
+   - Statistical significance (p-value): 0.5017
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

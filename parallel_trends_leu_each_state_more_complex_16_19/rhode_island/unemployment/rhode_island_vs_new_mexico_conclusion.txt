@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+rhode_island vs new_mexico
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.07
+   - Statistical significance (p-value): 0.1248
+   - Year-to-year volatility: 0.08
+   - Maximum deviation: 0.38
+   - Pre-treatment observations: 6
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

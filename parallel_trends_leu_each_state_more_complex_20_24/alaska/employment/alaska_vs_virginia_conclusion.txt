@@ -1,0 +1,17 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+alaska vs virginia
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0107
+   - Statistical significance (p-value): 0.3398
+   - Year-to-year volatility: 0.0407
+   - Maximum deviation: 0.111
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

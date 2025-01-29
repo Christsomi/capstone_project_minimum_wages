@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+connecticut vs north_carolina
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0093
+   - Statistical significance (p-value): 0.4038
+   - Year-to-year volatility: 0.0278
+   - Maximum deviation: 0.08
+   - Pre-treatment observations: 8
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

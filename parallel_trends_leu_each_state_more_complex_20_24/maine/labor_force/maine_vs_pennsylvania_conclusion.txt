@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+maine vs pennsylvania
+==============================================
+
+Treatment Year: 2017
+
+Analysis Results:
+   - Trend difference: 0.0035
+   - Statistical significance (p-value): 0.3342
+   - Year-to-year volatility: 0.0181
+   - Maximum deviation: 0.109
+   - Pre-treatment observations: 14
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

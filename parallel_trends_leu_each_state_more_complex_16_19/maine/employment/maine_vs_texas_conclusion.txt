@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+maine vs texas
+==============================================
+
+Treatment Year: 2017
+
+Analysis Results:
+   - Trend difference: 0.0031
+   - Statistical significance (p-value): 0.2719
+   - Year-to-year volatility: 0.017
+   - Maximum deviation: 0.113
+   - Pre-treatment observations: 14
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

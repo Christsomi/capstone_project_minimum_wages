@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+maine vs iowa
+==============================================
+
+Treatment Year: 2017
+
+Analysis Results:
+   - Trend difference: 0.0022
+   - Statistical significance (p-value): 0.4731
+   - Year-to-year volatility: 0.0154
+   - Maximum deviation: 0.051
+   - Pre-treatment observations: 14
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

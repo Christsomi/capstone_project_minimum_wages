@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+alaska vs iowa
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 1153.1
+   - Statistical significance (p-value): 0.5022
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+hawaii vs virginia
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.009
+   - Statistical significance (p-value): 0.2685
+   - Year-to-year volatility: 0.0194
+   - Maximum deviation: 0.114
+   - Pre-treatment observations: 10
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

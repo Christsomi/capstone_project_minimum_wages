@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+hawaii vs tennessee
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 232.2
+   - Statistical significance (p-value): 0.8206
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

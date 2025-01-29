@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+west_virginia vs iowa
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 3890.2
+   - Statistical significance (p-value): 0.1115
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

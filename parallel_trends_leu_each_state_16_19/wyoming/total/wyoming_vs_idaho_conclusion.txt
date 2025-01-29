@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+wyoming vs idaho
+==============================================
+
+Treatment Year: 2019
+
+Analysis Results:
+   - Trend difference: 4197.0333
+   - Statistical significance (p-value): 2e-04
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+

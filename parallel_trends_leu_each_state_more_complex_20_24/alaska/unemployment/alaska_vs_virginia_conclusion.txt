@@ -1,0 +1,17 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+alaska vs virginia
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 0.0034
+   - Statistical significance (p-value): 0.641
+   - Year-to-year volatility: 0.0121
+   - Maximum deviation: 0.035
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

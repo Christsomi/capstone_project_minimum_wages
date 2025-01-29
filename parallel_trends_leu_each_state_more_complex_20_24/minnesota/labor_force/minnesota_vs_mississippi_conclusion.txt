@@ -1,0 +1,18 @@
+==============================================
+Labor Force Participation Rate PARALLEL TRENDS ANALYSIS
+minnesota vs mississippi
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.014
+   - Statistical significance (p-value): 0.5378
+   - Year-to-year volatility: 0.0181
+   - Maximum deviation: 0.149
+   - Pre-treatment observations: 6
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

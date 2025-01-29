@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+rhode_island vs virginia
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.005
+   - Statistical significance (p-value): 0.6479
+   - Year-to-year volatility: 0.005
+   - Maximum deviation: 0.316
+   - Pre-treatment observations: 6
+
+Assessment: ⚠ Weak evidence for parallel trends
+
+Recommendation:
+⚠ Consider alternative methods or controls

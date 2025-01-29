@@ -1,0 +1,18 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+michigan vs wisconsin
+==============================================
+
+Treatment Year: 2014
+
+Analysis Results:
+   - Trend difference: 0.0067
+   - Statistical significance (p-value): 0.4582
+   - Year-to-year volatility: 0.0171
+   - Maximum deviation: 0.066
+   - Pre-treatment observations: 8
+
+Assessment: ⚡ Moderate evidence for parallel trends
+
+Recommendation:
+⚡ Consider additional robustness checks

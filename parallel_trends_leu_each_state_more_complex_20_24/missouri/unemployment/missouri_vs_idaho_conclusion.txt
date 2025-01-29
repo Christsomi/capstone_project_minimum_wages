@@ -1,0 +1,18 @@
+==============================================
+Unemployment Rate PARALLEL TRENDS ANALYSIS
+missouri vs idaho
+==============================================
+
+Treatment Year: 2013
+
+Analysis Results:
+   - Trend difference: 0.024
+   - Statistical significance (p-value): 0.5022
+   - Year-to-year volatility: 0.0211
+   - Maximum deviation: 0.045
+   - Pre-treatment observations: 6
+
+Assessment: ✓ Strong evidence for parallel trends
+
+Recommendation:
+✓ Suitable for DiD analysis

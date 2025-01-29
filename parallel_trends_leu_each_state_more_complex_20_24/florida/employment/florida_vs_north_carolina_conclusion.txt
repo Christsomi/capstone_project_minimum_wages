@@ -1,0 +1,10 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+florida vs north_carolina
+==============================================
+
+Treatment Year: 2012
+
+Analysis Results:
+⚠ WARNING: Insufficient data for reliable analysis
+

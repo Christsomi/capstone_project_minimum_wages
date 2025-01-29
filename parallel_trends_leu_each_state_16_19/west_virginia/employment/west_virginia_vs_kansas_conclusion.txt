@@ -1,0 +1,15 @@
+==============================================
+Employment/Population Ratio PARALLEL TRENDS ANALYSIS
+west_virginia vs kansas
+==============================================
+
+Treatment Year: 2015
+
+Analysis Results:
+   - Trend difference: 2e-04
+   - Statistical significance (p-value): 0.9509
+   - Assessment: ✓ Parallel trends assumption appears to hold
+
+Recommendation:
+✓ Suitable for DiD analysis
+

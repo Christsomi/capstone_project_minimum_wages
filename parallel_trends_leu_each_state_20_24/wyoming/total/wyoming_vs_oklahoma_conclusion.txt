@@ -1,0 +1,15 @@
+==============================================
+Total Population PARALLEL TRENDS ANALYSIS
+wyoming vs oklahoma
+==============================================
+
+Treatment Year: 2019
+
+Analysis Results:
+   - Trend difference: 2285.5333
+   - Statistical significance (p-value): 0.0821
+   - Assessment: ⚠ Some evidence against parallel trends
+
+Recommendation:
+⚠ Consider using alternative methods or adding state-specific time trends
+
